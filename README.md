@@ -12,7 +12,7 @@ This is an overview of what steganography is and techniques used in CTFs :smiley
 
 	- strings [filename]
 	- strings -t x -n 7 [filename]
-# use -n 7 for strings of length 7+, and -t x to view- their position in the file
+> use -n 7 for strings of length 7+, and -t x to view- their position in the file
 
 3. Determine the metadata
 
@@ -26,7 +26,7 @@ This is an overview of what steganography is and techniques used in CTFs :smiley
 
 	pngcheck -vtp7f [filename]
 	
-# v is for verbose, t and 7 display tEXt chunks, p displays contents of some other optional chunks and f forces continuation after major errors are encountered. 
+> v is for verbose, t and 7 display tEXt chunks, p displays contents of some other optional chunks and f forces continuation after major errors are encountered. 
 
 
 6. Images can be hidden in colour/bit panes.
